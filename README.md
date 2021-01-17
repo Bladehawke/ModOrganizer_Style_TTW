@@ -13,4 +13,4 @@ Download and extract the archive (.7z) using 7-Zip and move all of the files and
 Click the Settings button on the top toolbar, select the theme from the Style dropdown menu and click OK to apply.  **Do not** delete any of the stylesheets or folders from the above folder or you may break things.
 
 ## Credits
-I use assets provided the other Transparent styles.  The stylesheet is a modification of the Transparent-Style-BOS.  Several of the assets from that and Transparent-Style-101-Green are used.
+I use assets provided the other Transparent styles by Gernash.  The stylesheet is a modification of the Transparent-Style-BOS.  Several of the assets from that and Transparent-Style-101-Green are used.
