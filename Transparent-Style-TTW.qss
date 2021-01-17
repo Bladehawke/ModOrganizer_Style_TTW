@@ -1,5 +1,6 @@
+
 #centralWidget {
-     border-image: url(./Transparent-Style/Fallout-TTW.png) 0 0 0 0 stretch stretch;
+     border-image: url(./Transparent-Style/Fallout-ttw/Fallout-TTW.png) 0 0 0 0 stretch stretch;
 }
  QWidget#TextViewer{
 }
@@ -754,5 +755,5 @@ LinkLabel {
 }
 
 QLineEdit[valid-filter=false] {
-	background-color: #661111 !important;
+	background-color: #116611 !important;
 }
