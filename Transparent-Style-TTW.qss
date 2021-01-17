@@ -24,29 +24,29 @@
      padding-left:0;
 }
  #problemsWidget,#TransferSavesDialog,#SettingsDialog,#ProblemsDialog,#ModInfoDialog,#TextViewer,#PyCfgDialog,#InstallDialog {
-     border-image:url(./Transparent-Style/Vault-BOS-Main.png) 0 0 0 0 stretch stretch;
+     border-image:url(./Transparent-Style/Fallout-TTW/Metal-Plate.png) 0 0 0 0 stretch stretch;
 }
  #toolBarArea{
-     border-image: url(./Transparent-Style/vault-BOS-Main.png) 0 0 0 0 stretch stretch;
+     border-image: url(./Transparent-Style/Fallout-TTW/Metal-Plate.png) 0 0 0 0 stretch stretch;
 }
  #EditExecutablesDialog{
-     border-image: url(./Transparent-Style/vault-BOS-Main.png) 0 0 0 0 stretch stretch;
+     border-image: url(./Transparent-Style/Fallout-TTW/Metal-Plate.png) 0 0 0 0 stretch stretch;
 }
  #SimpleInstallDialog,#LockedDialog,QMenu{
-     border-image: url(./Transparent-Style/vault-BOS-Main.png) 0 0 0 0 stretch stretch;
+     border-image: url(./Transparent-Style/Fallout-TTW/Metal-Plate.png) 0 0 0 0 stretch stretch;
 }
  #nameLabel{
-     border-image: url(./Transparent-Style/vault-BOS-Main.png) 0 0 0 0 stretch stretch;
+     border-image: url(./Transparent-Style/Fallout-TTW/Metal-Plate.png) 0 0 0 0 stretch stretch;
      border-top:1px solid #b9fcd7;
      border-bottom:1px solid #b9fcd7;
      background-color:rgba(39,85,33,0.3);
      color:#fff;
 }
  #ProfilesDialog,#FomodInstallerDialog{
-     border-image: url(./Transparent-Style/vault-BOS-Main.png) 0 0 0 0 stretch stretch;
+     border-image: url(./Transparent-Style/Fallout-TTW/Metal-Plate.png) 0 0 0 0 stretch stretch;
 }
  #filesView{
-     border-image: url(./Transparent-Style/vault-BOS-Main.png) 0 0 0 0 stretch stretch;
+     border-image: url(./Transparent-Style/Fallout-TTW/Metal-Plate.png) 0 0 0 0 stretch stretch;
 }
 /* ******************************************** */
 /* Main Navigation Button Bar at top of window  */
@@ -56,7 +56,7 @@
     */
 }
  QToolBar::separator{
-    /*image: url(./Transparent-Style/Vault-101-vault-logo.png);
+    /*image: url(./Transparent-Style/TTW-vault-logo.png);
     */
 }
  QToolButton{
@@ -74,7 +74,7 @@
      padding: 0px;
      background: TRANSPARENT;
      border: 0px ridge #275521;
-     background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #275521, stop: 1 transparent );
+     background-color: QLinearGradient( x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #073507, stop: 1 transparent );
 }
  QToolButton:pressed{
      background: black;
@@ -97,7 +97,7 @@
  QTabBar{
      color: #cccccc;
      font-family: Segoe UI;
-     font-size: 16px;
+     font-size: 18px;
      text-transform: none;
      min-height:auto;
      padding-bottom: 5px;
@@ -156,10 +156,10 @@
      background: transparent;
 }
  QToolButton::menu-indicator:pressed,QToolButton::menu-indicator:open{
-     image: url(./Transparent-Style/Green/arrow-up.png);
+     image: url(./Transparent-Style/Fallout-TTW/arrow-up.png);
 }
  QToolButton::menu-indicator:!pressed,QToolButton::menu-indicator:!open{
-     image: url(./Transparent-Style/Green/arrow-down.png);
+     image: url(./Transparent-Style/Fallout-TTW/arrow-down.png);
 }
  QTabBar QToolButton::right-arrow{
      image: url(./Transparent-Style/narrow-arrow-right.png);
@@ -202,13 +202,13 @@
      min-width:Auto;
 }
  QHeaderView::up-arrow{
-     image: url(./Transparent-Style/Green/arrow-up.png);
+     image: url(./Transparent-Style/Fallout-TTW/arrow-up.png);
      min-height:25px;
      min-width:15px;
      padding-right: 0px;
 }
 QHeaderView::down-arrow{
-     image: url(./Transparent-Style/Green/arrow-down.png);
+     image: url(./Transparent-Style/Fallout-TTW/arrow-down.png);
 }
 /* **************************************** */
 /* Hover                                    */
@@ -256,7 +256,7 @@ QMenu::item:selected{
      border-bottom:1px solid #275521;
 }
  QMenu::right-arrow{
-     image: url(./Transparent-Style/Green/arrow-right.png);
+     image: url(./Transparent-Style/Fallout-TTW/arrow-right.png);
     /* right click main menu top option*/
      subcontrol-origin: padding;
      subcontrol-position: center right;
@@ -308,7 +308,7 @@ QMenu::item:selected{
      border-width: 1px;
 }
  QComboBox::menu-indicator{
-     image: url(./Transparent-Style/Green/arrow-down.png);
+     image: url(./Transparent-Style/Fallout-TTW/arrow-down.png);
      subcontrol-origin: padding;
      subcontrol-position: center right;
      width: 18px;
@@ -320,20 +320,20 @@ QMenu::item:selected{
 /* QComboBox::down-arrow:on, */
 /* ************************* */
  QComboBox::down-arrow:hover,QComboBox::down-arrow:focus {
-     image: url(./Transparent-Style/Green/arrow-down-hover.png);
+     image: url(./Transparent-Style/Fallout-TTW/arrow-down-hover.png);
 }
  QComboBox::up-arrow:hover,QComboBox::up-arrow:focus {
-     image: url(./Transparent-Style/Green/arrow-up-hover.png);
+     image: url(./Transparent-Style/Fallout-TTW/arrow-up-hover.png);
 }
  QComboBox::down-arrow{
-     image:url(./Transparent-Style/Green/arrow-down.png);
+     image:url(./Transparent-Style/Fallout-TTW/arrow-down.png);
      subcontrol-origin: padding;
      subcontrol-position: center right;
      width: 18px;
      height: 18px;
 }
  QComboBox::down-arrow:on{
-     image:url(./Transparent-Style/Green/arrow-up.png);
+     image:url(./Transparent-Style/Fallout-TTW/arrow-up.png);
 }
  QComboBox:editable {
      background: black;
@@ -367,7 +367,7 @@ QMenu::item:selected{
      border-bottom:1px solid #275521;
 }
  QPushButton::menu-indicator{
-     image: url(./Transparent-Style/Green/arrow-down.png);
+     image: url(./Transparent-Style/Fallout-TTW/arrow-down.png);
      subcontrol-origin: padding;
      subcontrol-position: center right;
      width: 18px;
@@ -376,7 +376,7 @@ QMenu::item:selected{
     /* Grey-Green */
 }
  QPushButton::menu-indicator:Hover{
-     image: url(./Transparent-Style/Green/arrow-down-hover.png);
+     image: url(./Transparent-Style/Fallout-TTW/arrow-down-hover.png);
 }
  QPushButton:focus{
 }
@@ -404,7 +404,7 @@ QMenu::item:selected{
  QPushButton:!enabled{
 }
 /* **************************************** */
-/* Filter Button */
+/* Filter Button                            */
 /* **************************************** */
  QPushButton#displayCategoriesBtn{
      min-width: 20px;
@@ -413,19 +413,19 @@ QMenu::item:selected{
      border: 1px hidden #275521;
 }
  QPushButton#displayCategoriesBtn:checked{
-     image: url(./Transparent-Style/Green/arrow-left.png);
+     image: url(./Transparent-Style/Fallout-TTW/arrow-left.png);
 }
  QPushButton#displayCategoriesBtn:!checked{
-     image: url(./Transparent-Style/Green/arrow-right.png);
+     image: url(./Transparent-Style/Fallout-TTW/arrow-right.png);
 }
  QPushButton#displayCategoriesBtn:checked:hover{
-     image: url(./Transparent-Style/Green/arrow-left-hover.png);
+     image: url(./Transparent-Style/Fallout-TTW/arrow-left-hover.png);
 }
  QPushButton#displayCategoriesBtn:!checked:hover{
-     image: url(./Transparent-Style/Green/arrow-right-hover.png);
+     image: url(./Transparent-Style/Fallout-TTW/arrow-right-hover.png);
 }
 /* **************************************** */
-/* Scroll bar */
+/* Scroll bar                               */
 /* **************************************** */
  QScrollBar{
      height:20px;
@@ -440,19 +440,19 @@ QMenu::item:selected{
      margin: 1px 4px;
      min-height:20px;
      min-width: 10px;
-     background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop:0 #275521, stop:1 #000000);
+     background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop:0 #477541, stop:1 #000000);
 }
  QScrollBar::handle:vertical:hover{
-     background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop:0 #000000, stop:1 #275521);
+     background-color:qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop:0 #000000, stop:1 #477541);
 }
  QScrollBar::handle:horizontal{
      min-height:10px;
     min-width:20px;
     margin:4px 1px;
-     background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop:0 #275521, stop:1 #000000);
+     background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop:0 #477541, stop:1 #000000);
 }
  QScrollBar::handle:horizontal:hover{
-     background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop:0 #000000, stop:1 #275521);
+     background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop:0 #000000, stop:1 #477541);
 }
  QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical,QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal{
      background-color: transparent;
@@ -462,14 +462,14 @@ QMenu::item:selected{
      width:0;
 }
 /* ******************************************************** */
-/* Main Tree View Inherited from QAbstractItemView */
+/* Main Tree View Inherited from QAbstractItemView          */
 /* ******************************************************** */
  QTreeView {
 }
  QTreeView:item{
-     padding: 3px;
+     padding: 2px;
      font-size: 16px;
-     height: 18px;
+     height: 16px;
     /*Bottom text Box*/
 }
  QTreeView:item:selected{
@@ -487,25 +487,25 @@ QMenu::item:selected{
      margin: 0px;
 }
  QTreeView::branch:has-siblings:!adjoins-item{
-     background:url(Transparent-Style/Green/vault-101-item-line-v.png) center center no-repeat;
+     background:url(Transparent-Style/Fallout-TTW/TTW-item-line-v.png) center center no-repeat;
 }
  QTreeView::branch:has-siblings{
-     background:url(Transparent-Style/Green/vault-101-itemB-line.png) center center no-repeat;
+     background:url(Transparent-Style/Fallout-TTW/TTW-itemB-line.png) center center no-repeat;
 }
  QTreeView::branch:!has-children:!has-siblings:adjoins-item{
-     background:url(Transparent-Style/Green/vault-101-itemB-end.png) center center no-repeat;
+     background:url(Transparent-Style/Fallout-TTW/TTW-itemB-end.png) center center no-repeat;
 }
  QTreeView::branch:closed:has-children:has-siblings{
-     background:url(Transparent-Style/Green/vault-101-itemB-close.png) center center no-repeat;
+     background:url(Transparent-Style/Fallout-TTW/TTW-itemB-close.png) center center no-repeat;
 }
  QTreeView::branch:closed:has-children:!has-siblings{
-     background:url(Transparent-Style/Green/vault-101-itemB-close-last.png) center center no-repeat;
+     background:url(Transparent-Style/Fallout-TTW/TTW-itemB-close-last.png) center center no-repeat;
 }
  QTreeView::branch:open:has-children:has-siblings{
-     background:url(Transparent-Style/Green/vault-101-itemB-open.png) center center no-repeat;
+     background:url(Transparent-Style/Fallout-TTW/TTW-itemB-open.png) center center no-repeat;
 }
  QTreeView::branch:open:has-children:!has-siblings{
-     background:url(Transparent-Style/Green/vault-101-itemB-open-last.png) center center no-repeat;
+     background:url(Transparent-Style/Fallout-TTW/TTW-itemB-open-last.png) center center no-repeat;
 }
 
 QAbstractItemView[filtered=true] {
@@ -524,25 +524,25 @@ QAbstractItemView[filtered=true] {
      height: 24px;
 }
  QGroupBox::indicator:checked,QGroupBox::indicator:indeterminate,QTreeView::indicator:checked,QTreeView::indicator:indeterminate,QCheckBox::indicator:checked,QCheckBox::indicator:indeterminate{
-     image: url(./Transparent-Style/Green/checkbox-checked.png);
+     image: url(./Transparent-Style/Fallout-TTW/checkbox-checked.png);
 }
  QGroupBox::indicator:checked:hover,QGroupBox::indicator:indeterminate:hover,QTreeView::indicator:checked:hover,QTreeView::indicator:indeterminate:hover,QCheckBox::indicator:checked:hover,QCheckBox::indicator:indeterminate:hover{
-     image: url(./Transparent-Style/Green/checkbox-hover.png);
+     image: url(./Transparent-Style/Fallout-TTW/checkbox-hover.png);
 }
  QGroupBox::indicator:checked:disabled,QGroupBox::indicator:indeterminate:disabled,QTreeView::indicator:checked:disabled,QTreeView::indicator:indeterminate:disabled,QCheckBox::indicator:checked:disabled,QCheckBox::indicator:indeterminate:disabled{
-     image: url(./Transparent-Style/Green/checkbox-checked-disabled.png);
+     image: url(./Transparent-Style/Fallout-TTW/checkbox-checked-disabled.png);
 }
  QGroupBox::indicator:unchecked,QTreeView::indicator:unchecked,QCheckBox::indicator:unchecked{
-     image: url(./Transparent-Style/Green/checkbox.png);
+     image: url(./Transparent-Style/Fallout-TTW/checkbox.png);
 }
  QGroupBox::indicator:unchecked:hover,QTreeView::indicator:unchecked:hover,QCheckBox::indicator:unchecked:hover{
-     image: url(./Transparent-Style/Green/checkbox-checked-hover.png);
+     image: url(./Transparent-Style/Fallout-TTW/checkbox-checked-hover.png);
 }
  QGroupBox::indicator:unchecked:disabled,QTreeView::indicator:unchecked:disabled,QCheckBox::indicator:unchecked:disabled{
-     image: url(./Transparent-Style/Green/checkbox-checked-disabled.png);
+     image: url(./Transparent-Style/Fallout-TTW/checkbox-checked-disabled.png);
 }
  QTreeWidget#categoriesList::item:has-children{
-     background-image: url(./Transparent-Style/Green/arrow-right-small.png);
+     background-image: url(./Transparent-Style/arrow-right-small.png);
 }
  QTreeWidget#categoriesList::item:has-children:open{
      background-image: url(./Transparent-Style/branch-opened.png);
@@ -573,13 +573,13 @@ QAbstractItemView[filtered=true] {
      height: 16px;
 }
  QRadioButton::indicator::checked{
-     image: url(./Transparent-Style/Green/radio-checked.png);
+     image: url(./Transparent-Style/Fallout-TTW/radio-checked.png);
 }
  QRadioButton::indicator::unchecked{
-     image: url(./Transparent-Style/Green/radio.png);
+     image: url(./Transparent-Style/Fallout-TTW/radio.png);
 }
  QRadioButton::indicator::unchecked:hover{
-     image: url(./Transparent-Style/Green/radio-hover.png);
+     image: url(./Transparent-Style/Fallout-TTW/radio-hover.png);
 }
 /* **************************************** */
 /* Spinners #QSpinBox, #QDoubleSpinBox      */
